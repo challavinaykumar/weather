@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: rgb(74, 95, 118);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    width: 300px;
+    background-color: white;
+   display: grid;
+   justify-content: center;
+   padding: 20px;
+}
+
+h2,p{
+    text-align: center;
+    padding-top: 10px;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+input{
+    padding: 7px;
+    width: 200px;
+    border-radius: 5px 0px 0px 5px;
+margin-bottom: 25px;
+}
+input:focus{
+    outline: none;
+    box-shadow: 3px 3px 23px  rgb(74, 95, 118);
+}
+
+#btn{
+    padding:7px ;
+    margin-left: -10px;
+    border-radius:0px 5px 5px 0px;
+
+}
+
+#btn:hover{
+    background-color: rgb(74, 95, 118);
+    color: white;
+}
+
+
+
+
+
